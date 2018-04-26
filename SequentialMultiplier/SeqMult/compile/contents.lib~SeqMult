@@ -1,0 +1,9 @@
+330
+~E 1 "./src/adderonebit.vhd" 28 adderone_ent
+~E 1 "./src/EightAdder.vhd" 28 addereight_ent
+~E 1 "./src/TestBench/seq_ent_TB.vhd" 7 seq_ent_tb
+~A 1 "./src/TestBench/seq_ent_TB.vhd" 10 tb_architecture
+~E 1 "./src/Sequential.vhd" 30 seq_ent
+~A 1 "./src/Sequential.vhd" 41 seq_arch
+~A 1 "./src/Sequential.vhd" 41 behavior
+~C 1 "./src/TestBench/seq_ent_TB.vhd" 54 testbench_for_seq_ent

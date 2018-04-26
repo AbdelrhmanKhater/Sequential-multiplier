@@ -1,0 +1,1 @@
+-w -s "f:\VHDL\SequentialMultiplier\library.cfg"  -j "f:\VHDL\SequentialMultiplier\SeqMult\projlib.cfg"  -d "f:\VHDL\SequentialMultiplier\SeqMult\compile"   -work SeqMult  -dbg -e 100 -2002 "f:\\VHDL\\SequentialMultiplier\\SeqMult\\src\\TestBench\\seq_ent_TB.vhd" 

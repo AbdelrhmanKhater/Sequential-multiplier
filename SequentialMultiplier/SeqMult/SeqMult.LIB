@@ -1,0 +1,57 @@
+timestamp=1524698942101
+
+[addereight_ent]
+I=0*1722
+I/addereight_arch=0*2833
+M=11|0|v147|1524544445269|./src/EightAdder.vhd|0*1327*0xf872e954fec0685f77bc1b1ccb03fd219da0e256|0*1640*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/EightAdder.vhd|28
+
+[adderone_ent]
+B/addertwo_ent=3*0
+I=0*548
+I/addertwo_ent=0*963
+M=11|0|v147|1524521421157|./src/adderonebit.vhd|0*202*0xaaebcb0277f9bec6e5b5aab8fe23888b1785c8ab|0*467*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/adderonebit.vhd|28
+
+[seq_ent]
+A/behavior=21|./src/Sequential.vhd|41|1*123848
+A/seq_arch=+21|./src/Sequential.vhd|41|1*8815
+B/behavior=3*60095
+I=0*31642
+I/behavior=0*32504
+M=11|0|v147|1524698863047|./src/Sequential.vhd|0*31258*0xae6f01ea9ff911a9542a715fbe29bc0b4f96a26d|0*31567*0x7bd7e13dc0415552f89596087806a8cf
+M/behavior=21|0|v147|1524698863049|./src/Sequential.vhd|0*31812*0x0a750ec282fe916e11ffd05266af473d23f2c959|0*32417*0x7bd7e13dc0415552f89596087806a8cf
+M/seq_arch=21|0|v147|1524549113561|./src/Sequential.vhd|0*5368*0x34adb2ff0260244c7f4c85072cce8d9b1a1b6933|0*5664*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Sequential.vhd|30
+
+[seq_ent_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/seq_ent_TB.vhd|10|1*126170
+B/tb_architecture=3*62851
+I=0*11314
+I/tb_architecture=I/TB_ARCHITECTURE 0*33435
+M=11|0|v147|1524678651012|./src/TestBench/seq_ent_TB.vhd|0*11028*0x7cde1edc8b685ce145e36e8969a907f34e5a8e7c|0*11226*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1524698942051|./src/TestBench/seq_ent_TB.vhd|0*32683*0x3ecee52e96ae404c95e52e03259da2041e956dee|0*33328*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/seq_ent_TB.vhd|7
+
+[testbench_for_seq_ent]
+E=1*128690
+I=0*34056
+M=2|0|v147|1524698942055|./src/TestBench/seq_ent_TB.vhd|0*33678*0xdd5cbd011dd9369ab93aacf5a37d52b538c2ffc8|0*33944*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/seq_ent_TB.vhd|54
+
+[~A]
+ModifyID=330
+Version=73
+
+[~MFT]
+0=278|0SeqMult.mgf|34056|28431
+1=139|1SeqMult.mgf|128690|122015
+3=84|3SeqMult.mgf|62851|58999
+
+[~U]
+addereight_ent=11|0*1082|
+adderone_ent=11|0*0|
+seq_ent=11|0*31049|
+seq_ent_tb=11|0*10957|
+testbench_for_seq_ent=TESTBENCH_FOR_seq_ent 2||
+

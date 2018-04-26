@@ -1,0 +1,5 @@
+MESSAGE "File: f:\VHDL\SequentialMultiplier\SeqMult\src\TestBench\seq_ent_TB.vhd" 
+MESSAGE "Compile Entity "seq_ent_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "seq_ent_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_seq_ent"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

@@ -1,0 +1,47 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=SeqMult
+
+[Library]
+SeqMult=.\SeqMult.LIB
+
+[$LibMap$]
+SeqMult=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+CDebugWatchList=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=seq_ent_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Files]
+/Sequential.vhd=-1
+TestBench/seq_ent_TB.vhd=-1
+TestBench/seq_ent_TB_runtest.do=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\Sequential.vhd=VHDL Source Code
+.\src\TestBench\seq_ent_TB.vhd=VHDL Test Bench
+.\src\TestBench\seq_ent_TB_runtest.do=Macro
+
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration

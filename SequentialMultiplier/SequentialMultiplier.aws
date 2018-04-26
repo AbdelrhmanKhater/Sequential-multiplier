@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+seqmult=.\SeqMult\SeqMult.adf
+[Expand]
+seqmult=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
