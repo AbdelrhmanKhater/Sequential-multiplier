@@ -2660,7 +2660,7 @@ I 000040 55 409 0 testbench_for_seq_ent
 		)
 	)
 )
-V 000049 55 2273          1524698863050 behavior
+I 000049 55 2273          1524698863050 behavior
 (_unit VHDL (seq_ent 0 30 (behavior 0 41 ))
 	(_version v147)
 	(_time 1524698863051 2018.04.26 01:27:43)
@@ -2703,7 +2703,7 @@ V 000049 55 2273          1524698863050 behavior
 	(_model . behavior 1 -1
 	)
 )
-V 000056 55 2464          1524698942052 TB_ARCHITECTURE
+I 000056 55 2464          1524698942052 TB_ARCHITECTURE
 (_unit VHDL (seq_ent_tb 0 7 (tb_architecture 0 10 ))
 	(_version v147)
 	(_time 1524698942053 2018.04.26 01:29:02)
@@ -2761,7 +2761,7 @@ V 000056 55 2464          1524698942052 TB_ARCHITECTURE
 	(_model . TB_ARCHITECTURE 1 -1
 	)
 )
-V 000040 55 409 0 testbench_for_seq_ent
+I 000040 55 409 0 testbench_for_seq_ent
 (_configuration VHDL (testbench_for_seq_ent 0 54 (seq_ent_tb))
 	(_version v147)
 	(_time 1524698942056 2018.04.26 01:29:02)
@@ -2769,6 +2769,202 @@ V 000040 55 409 0 testbench_for_seq_ent
 	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
 	(_parameters dbg)
 	(_code 7f7f7b7e2c2928687b7e6d252b)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . seq_ent behavior
+			)
+		)
+	)
+)
+I 000049 55 2187          1524934224609 behavior
+(_unit VHDL (seq_ent 0 30 (behavior 0 40 ))
+	(_version v147)
+	(_time 1524934224610 2018.04.28 18:50:24)
+	(_source (\./src/Sequential.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 2e20292a7e787b3b7a293b742a)
+	(_entity
+		(_time 1524934224607)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal m ~STD_LOGIC_VECTOR{7~downto~0}~12 0 32 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~122 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal q ~STD_LOGIC_VECTOR{7~downto~0}~122 0 33 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{15~downto~0}~12 0 34 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_port (_internal prod ~STD_LOGIC_VECTOR{15~downto~0}~12 0 34 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{8~downto~0}~13 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 8)(i 0))))))
+		(_signal (_internal c_tmp ~STD_LOGIC_VECTOR{8~downto~0}~13 0 41 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 42 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal s_tmp ~STD_LOGIC_VECTOR{7~downto~0}~13 0 42 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{16~downto~0}~13 0 45 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 16)(i 0))))))
+		(_variable (_internal acc ~STD_LOGIC_VECTOR{16~downto~0}~13 0 45 (_process 0 )))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_simple)(_target(3)(2(d_15_0)))(_sensitivity(0)(1))(_read(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_split (3)
+	)
+	(_static
+		(33686018 33686018 2 )
+	)
+	(_model . behavior 1 -1
+	)
+)
+I 000049 55 2187          1524934284108 behavior
+(_unit VHDL (seq_ent 0 30 (behavior 0 40 ))
+	(_version v147)
+	(_time 1524934284109 2018.04.28 18:51:24)
+	(_source (\./src/Sequential.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code a9a9f9fea5fffcbcfdaebcf3ad)
+	(_entity
+		(_time 1524934224606)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal m ~STD_LOGIC_VECTOR{7~downto~0}~12 0 32 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~122 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal q ~STD_LOGIC_VECTOR{7~downto~0}~122 0 33 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{15~downto~0}~12 0 34 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_port (_internal prod ~STD_LOGIC_VECTOR{15~downto~0}~12 0 34 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{8~downto~0}~13 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 8)(i 0))))))
+		(_signal (_internal c_tmp ~STD_LOGIC_VECTOR{8~downto~0}~13 0 41 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 42 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal s_tmp ~STD_LOGIC_VECTOR{7~downto~0}~13 0 42 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{16~downto~0}~13 0 45 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 16)(i 0))))))
+		(_variable (_internal acc ~STD_LOGIC_VECTOR{16~downto~0}~13 0 45 (_process 0 )))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_simple)(_target(3)(2(d_15_0)))(_sensitivity(0)(1))(_read(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_split (3)
+	)
+	(_static
+		(33686018 33686018 2 )
+	)
+	(_model . behavior 1 -1
+	)
+)
+V 000049 55 2187          1524934302308 behavior
+(_unit VHDL (seq_ent 0 30 (behavior 0 40 ))
+	(_version v147)
+	(_time 1524934302309 2018.04.28 18:51:42)
+	(_source (\./src/Sequential.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code c490c491c59291d190c3d19ec0)
+	(_entity
+		(_time 1524934224606)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~12 0 32 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal m ~STD_LOGIC_VECTOR{7~downto~0}~12 0 32 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~122 0 33 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal q ~STD_LOGIC_VECTOR{7~downto~0}~122 0 33 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{15~downto~0}~12 0 34 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_port (_internal prod ~STD_LOGIC_VECTOR{15~downto~0}~12 0 34 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{8~downto~0}~13 0 41 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 8)(i 0))))))
+		(_signal (_internal c_tmp ~STD_LOGIC_VECTOR{8~downto~0}~13 0 41 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 42 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal s_tmp ~STD_LOGIC_VECTOR{7~downto~0}~13 0 42 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{16~downto~0}~13 0 45 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 16)(i 0))))))
+		(_variable (_internal acc ~STD_LOGIC_VECTOR{16~downto~0}~13 0 45 (_process 0 )))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_simple)(_target(3)(2(d_15_0)))(_sensitivity(0)(1))(_read(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_split (3)
+	)
+	(_static
+		(33686018 33686018 2 )
+	)
+	(_model . behavior 1 -1
+	)
+)
+V 000056 55 2267          1524934302424 TB_ARCHITECTURE
+(_unit VHDL (seq_ent_tb 0 7 (tb_architecture 0 10 ))
+	(_version v147)
+	(_time 1524934302425 2018.04.28 18:51:42)
+	(_source (\./src/TestBench/seq_ent_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 32663537356467276661276836)
+	(_entity
+		(_time 1524678651012)
+	)
+	(_component
+		(seq_ent
+			(_object
+				(_port (_internal m ~STD_LOGIC_VECTOR{7~downto~0}~13 0 14 (_entity (_in ))))
+				(_port (_internal q ~STD_LOGIC_VECTOR{7~downto~0}~132 0 15 (_entity (_in ))))
+				(_port (_internal prod ~STD_LOGIC_VECTOR{15~downto~0}~13 0 16 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 30 (_component seq_ent )
+		(_port
+			((m)(m))
+			((q)(q))
+			((prod)(prod))
+		)
+		(_use (_entity . seq_ent)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 14 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~132 0 15 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{15~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal m ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_architecture (_uni ))))
+		(_signal (_internal q ~STD_LOGIC_VECTOR{7~downto~0}~134 0 21 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{15~downto~0}~136 0 23 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 15)(i 0))))))
+		(_signal (_internal prod ~STD_LOGIC_VECTOR{15~downto~0}~136 0 23 (_architecture (_uni ))))
+		(_process
+			(line__38(_architecture 0 0 38 (_process (_wait_for)(_target(0)(1)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+	)
+	(_static
+		(33686018 33686274 )
+		(33686018 33751554 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+V 000040 55 409 0 testbench_for_seq_ent
+(_configuration VHDL (testbench_for_seq_ent 0 49 (seq_ent_tb))
+	(_version v147)
+	(_time 1524934302440 2018.04.28 18:51:42)
+	(_source (\./src/testbench/seq_ent_tb.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 41154143451716564540531b15)
 	(_architecture TB_ARCHITECTURE
 		(_instantiation UUT
 			(_entity . seq_ent behavior

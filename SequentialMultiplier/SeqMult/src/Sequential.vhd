@@ -31,8 +31,7 @@ entity seq_ent is
 	 port(
 		 m : in STD_LOGIC_VECTOR(7 downto 0);
 		 q : in STD_LOGIC_VECTOR(7 downto 0);
-		 prod : out STD_LOGIC_VECTOR(15 downto 0); 
-		 clk : in std_logic
+		 prod : out STD_LOGIC_VECTOR(15 downto 0)
 	     );
 end seq_ent;
 
@@ -42,7 +41,7 @@ architecture behavior of seq_ent is
 signal c_tmp:std_logic_vector(8 downto 0); 
 signal s_tmp:std_logic_vector(7 downto 0);
 begin	
-	process(clk) 
+	process(q, m) 
 	variable acc:std_logic_vector(16 downto 0);
 	begin  	
 	acc(7 downto 0) := q;

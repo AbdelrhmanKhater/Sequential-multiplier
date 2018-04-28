@@ -13,14 +13,12 @@ architecture TB_ARCHITECTURE of seq_ent_tb is
 	port(
 		m : in STD_LOGIC_VECTOR(7 downto 0);
 		q : in STD_LOGIC_VECTOR(7 downto 0);
-		prod : out STD_LOGIC_VECTOR(15 downto 0);
-		clk : in STD_LOGIC );
+		prod : out STD_LOGIC_VECTOR(15 downto 0));
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
 	signal m : STD_LOGIC_VECTOR(7 downto 0);
 	signal q : STD_LOGIC_VECTOR(7 downto 0);
-	signal clk : STD_LOGIC;
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal prod : STD_LOGIC_VECTOR(15 downto 0);
 
@@ -33,18 +31,15 @@ begin
 		port map (
 			m => m,
 			q => q,
-			prod => prod,
-			clk => clk
+			prod => prod
 		);
 
 	-- Add your stimulus here ...
 	 process
 	begin	
-		clk <= '0';
 		q <= "00000100";
 		m <= "00000100";
 		wait for 100 ns;
-		clk <= '1';
 		q <= "00000100";
 		m <= "00000010";
 		wait for 100 ns;  

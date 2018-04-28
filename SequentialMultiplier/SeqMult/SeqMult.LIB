@@ -1,4 +1,4 @@
-timestamp=1524698942101
+timestamp=1524934302532
 
 [addereight_ent]
 I=0*1722
@@ -14,44 +14,44 @@ M=11|0|v147|1524521421157|./src/adderonebit.vhd|0*202*0xaaebcb0277f9bec6e5b5aab8
 R=./src/adderonebit.vhd|28
 
 [seq_ent]
-A/behavior=21|./src/Sequential.vhd|41|1*123848
+A/behavior=21|./src/sequential.vhd|40|1*133611
 A/seq_arch=+21|./src/Sequential.vhd|41|1*8815
-B/behavior=3*60095
-I=0*31642
-I/behavior=0*32504
-M=11|0|v147|1524698863047|./src/Sequential.vhd|0*31258*0xae6f01ea9ff911a9542a715fbe29bc0b4f96a26d|0*31567*0x7bd7e13dc0415552f89596087806a8cf
-M/behavior=21|0|v147|1524698863049|./src/Sequential.vhd|0*31812*0x0a750ec282fe916e11ffd05266af473d23f2c959|0*32417*0x7bd7e13dc0415552f89596087806a8cf
+B/behavior=3*64030
+I=0*34658
+I/behavior=0*35522
+M=11|0|v147|1524934224606|./src/Sequential.vhd|0*34295*0x250a862d7fff5540718b9d461382d1078466c3ff|0*34583*0x7bd7e13dc0415552f89596087806a8cf
+M/behavior=21|0|v147|1524934302310|./src/Sequential.vhd|0*34828*0x44675ffb0ddd2a26e0f0c9106688e78c11daf5d3|0*35435*0x7bd7e13dc0415552f89596087806a8cf
 M/seq_arch=21|0|v147|1524549113561|./src/Sequential.vhd|0*5368*0x34adb2ff0260244c7f4c85072cce8d9b1a1b6933|0*5664*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/Sequential.vhd|30
 
 [seq_ent_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/seq_ent_TB.vhd|10|1*126170
-B/tb_architecture=3*62851
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/testbench/seq_ent_tb.vhd|10|1*135847
+B/tb_architecture=3*66786
 I=0*11314
-I/tb_architecture=I/TB_ARCHITECTURE 0*33435
+I/tb_architecture=I/TB_ARCHITECTURE 0*36375
 M=11|0|v147|1524678651012|./src/TestBench/seq_ent_TB.vhd|0*11028*0x7cde1edc8b685ce145e36e8969a907f34e5a8e7c|0*11226*0x7bd7e13dc0415552f89596087806a8cf
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1524698942051|./src/TestBench/seq_ent_TB.vhd|0*32683*0x3ecee52e96ae404c95e52e03259da2041e956dee|0*33328*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1524934302423|./src/testbench/seq_ent_tb.vhd|0*35701*0xdaf0943762387bb92b2a85bb8392ca249546a30e|0*36268*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/TestBench/seq_ent_TB.vhd|7
 
 [testbench_for_seq_ent]
-E=1*128690
-I=0*34056
-M=2|0|v147|1524698942055|./src/TestBench/seq_ent_TB.vhd|0*33678*0xdd5cbd011dd9369ab93aacf5a37d52b538c2ffc8|0*33944*0x7bd7e13dc0415552f89596087806a8cf
-R=./src/TestBench/seq_ent_TB.vhd|54
+E=1*138170
+I=0*36996
+M=2|0|v147|1524934302439|./src/testbench/seq_ent_tb.vhd|0*36618*0x7ec09bba3c1487e823bfb719e471f3edd36c6cae|0*36884*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/testbench/seq_ent_tb.vhd|49
 
 [~A]
-ModifyID=330
+ModifyID=359
 Version=73
 
 [~MFT]
-0=278|0SeqMult.mgf|34056|28431
-1=139|1SeqMult.mgf|128690|122015
-3=84|3SeqMult.mgf|62851|58999
+0=304|0SeqMult.mgf|36996|31488
+1=149|1SeqMult.mgf|138170|131778
+3=92|3SeqMult.mgf|66786|62934
 
 [~U]
 addereight_ent=11|0*1082|
 adderone_ent=11|0*0|
-seq_ent=11|0*31049|
+seq_ent=11|0*34106|
 seq_ent_tb=11|0*10957|
 testbench_for_seq_ent=TESTBENCH_FOR_seq_ent 2||
 

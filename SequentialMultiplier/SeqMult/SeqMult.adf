@@ -33,15 +33,15 @@ TestBench=1
 
 [Files]
 /Sequential.vhd=-1
-TestBench/seq_ent_TB.vhd=-1
-TestBench/seq_ent_TB_runtest.do=-1
 /untitled.asdb=-1
 /untitled.awc=-1
+TestBench/seq_ent_TB.vhd=-1
+TestBench/seq_ent_TB_runtest.do=-1
 
 [Files.Data]
 .\src\Sequential.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
 .\src\TestBench\seq_ent_TB.vhd=VHDL Test Bench
 .\src\TestBench\seq_ent_TB_runtest.do=Macro
 
-.\src\untitled.asdb=Accelerated Waveform File
-.\src\untitled.awc=Accelerated Waveform Configuration
